@@ -22,6 +22,20 @@ Many operating system distributions package Nikola and Flask (some only the Pyth
 there is not a suitable package then creating a virtualenv and installing Nikola and Flask from PyPI using
 pip works well – Python 3 being the most senble choice of Python obviously.
 
+For Linux users, and particularly for those not accustomed to Python development, a simple solution is to
+install the free Conda system from Continuum Analytics, a company heavily involved in open source.
+The `miniconda3` distribution is to be preferred, since unlike the full `conda3`  it installs a fairly
+small set of modules and downloads the rest as required to build virtualenvs. Since the only thing you
+have to do to enable Conda is add its `bin` directory to your path you can enable it just to work on this
+site and remove it afterwards and it will be pretty much isolated from anything else you do on the same
+machine. The `miniconda` downloads page is at http://conda.pydata.org/miniconda.html and instructions for
+installing on Linux are at http://conda.pydata.org/docs/install/quick.html#linux-miniconda-install (Mac OS
+and Windows users should find their instructions on the same page).
+
+The following instructions assume that the `conda` command is already available in your environment.
+
+
+
 ## The Licence
 
 All text material in the Nikola managed part of this repository is licenced
